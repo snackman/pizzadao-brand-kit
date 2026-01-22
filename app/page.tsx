@@ -379,7 +379,7 @@ export default function BrandKit() {
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <span className="text-red-600 font-bold">✗</span>
-                    <span>Use our logo without pizza</span>
+                    <span>Use our logo when there&apos;s no pizza</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-red-600 font-bold">✗</span>

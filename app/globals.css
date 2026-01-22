@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --pizza-yellow: #FFE135;
+  --pizza-red: #E85D5D;
+  --pizza-blue: #7DD3E8;
+  --font-rubik: 'Rubik', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-pizza-yellow: var(--pizza-yellow);
+  --color-pizza-red: var(--pizza-red);
+  --color-pizza-blue: var(--pizza-blue);
+  --font-sans: var(--font-rubik);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-rubik);
+}
+
+html {
+  scroll-behavior: smooth;
+}

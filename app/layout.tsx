@@ -10,7 +10,7 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
   title: "PizzaDAO Brand Kit",
-  description: "The world's largest pizza co-op - Brand guidelines and assets",
+  description: "Pizza the planet!",
 };
 
 export default function RootLayout({

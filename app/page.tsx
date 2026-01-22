@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 
+const BASE_PATH = "/pizzadao-brand-kit";
+
 const NAV_ITEMS = [
   { id: "logos", label: "Logos" },
   { id: "colors", label: "Colors" },
@@ -28,7 +30,7 @@ export default function BrandKit() {
       <nav className="fixed left-0 top-0 h-screen w-64 bg-black text-white flex flex-col p-6">
         <div className="mb-12">
           <Image
-            src="/pizzadao-logos/pizzadao-logo-white.svg"
+            src={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-white.svg`}
             alt="PizzaDAO"
             width={150}
             height={40}
@@ -65,7 +67,7 @@ export default function BrandKit() {
               <div className="border border-gray-200 rounded-lg p-8">
                 <div className="bg-gray-100 rounded-lg p-12 flex items-center justify-center mb-6">
                   <Image
-                    src="/pizzadao-logos/pizzadao-logo-black.svg"
+                    src={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-black.svg`}
                     alt="PizzaDAO Logo Black"
                     width={250}
                     height={70}
@@ -73,8 +75,8 @@ export default function BrandKit() {
                 </div>
                 <p className="font-medium mb-4">Dark Logo (for light backgrounds)</p>
                 <div className="flex gap-2">
-                  <a href="/pizzadao-logos/pizzadao-logo-black.svg" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
-                  <a href="/pizzadao-logos/pizzadao-logo-black.png" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-black.svg`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-black.png`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
                 </div>
               </div>
 
@@ -82,7 +84,7 @@ export default function BrandKit() {
               <div className="border border-gray-200 rounded-lg p-8">
                 <div className="bg-black rounded-lg p-12 flex items-center justify-center mb-6">
                   <Image
-                    src="/pizzadao-logos/pizzadao-logo-white.svg"
+                    src={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-white.svg`}
                     alt="PizzaDAO Logo White"
                     width={250}
                     height={70}
@@ -90,8 +92,8 @@ export default function BrandKit() {
                 </div>
                 <p className="font-medium mb-4">Light Logo (for dark backgrounds)</p>
                 <div className="flex gap-2">
-                  <a href="/pizzadao-logos/pizzadao-logo-white.svg" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
-                  <a href="/pizzadao-logos/pizzadao-logo-white.png" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-white.svg`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-logo-white.png`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
                 </div>
               </div>
             </div>
@@ -102,7 +104,7 @@ export default function BrandKit() {
               <div className="border border-gray-200 rounded-lg p-8">
                 <div className="bg-gray-100 rounded-lg p-8 flex items-center justify-center mb-6">
                   <Image
-                    src="/pizzadao-logos/pizzadao-icon-black.svg"
+                    src={`${BASE_PATH}/pizzadao-logos/pizzadao-icon-black.svg`}
                     alt="PizzaDAO Icon"
                     width={80}
                     height={80}
@@ -110,8 +112,8 @@ export default function BrandKit() {
                 </div>
                 <p className="font-medium mb-4">Icon</p>
                 <div className="flex gap-2">
-                  <a href="/pizzadao-logos/pizzadao-icon-black.svg" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
-                  <a href="/pizzadao-logos/pizzadao-icon-black.png" download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-icon-black.svg`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">SVG</a>
+                  <a href={`${BASE_PATH}/pizzadao-logos/pizzadao-icon-black.png`} download className="px-4 py-2 bg-black text-white rounded text-sm font-medium hover:bg-gray-800">PNG</a>
                 </div>
               </div>
             </div>
@@ -192,10 +194,10 @@ export default function BrandKit() {
             <p className="text-gray-800 mb-12">Our three-eyed pizza slice mascot.</p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <a href="/molto-benny/molto-benny-color-pizzadao.png" download className="bg-white rounded-lg p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
+              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-pizzadao.png`} download className="bg-white rounded-lg p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
                 <div className="h-[200px] flex items-center justify-center mb-4">
                   <Image
-                    src="/molto-benny/molto-benny-color-pizzadao.png"
+                    src={`${BASE_PATH}/molto-benny/molto-benny-color-pizzadao.png`}
                     alt="Molto Benny PizzaDAO"
                     width={200}
                     height={200}
@@ -206,10 +208,10 @@ export default function BrandKit() {
                 <p className="text-sm text-gray-500">PNG</p>
               </a>
 
-              <a href="/molto-benny/molto-benny-color-btc.svg" download className="bg-white rounded-lg p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
+              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-btc.svg`} download className="bg-white rounded-lg p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
                 <div className="h-[200px] flex items-center justify-center mb-4">
                   <Image
-                    src="/molto-benny/molto-benny-color-btc.svg"
+                    src={`${BASE_PATH}/molto-benny/molto-benny-color-btc.svg`}
                     alt="Molto Benny BTC"
                     width={200}
                     height={200}
@@ -224,7 +226,7 @@ export default function BrandKit() {
             {/* Source Files */}
             <h3 className="text-xl font-bold mb-4 text-gray-800">Source Files</h3>
             <div className="grid md:grid-cols-2 gap-4">
-              <a href="/molto-benny/molto-benny-eth.ai" download className="bg-black rounded-lg p-6 flex items-center justify-between hover:bg-gray-900 transition-colors cursor-pointer">
+              <a href={`${BASE_PATH}/molto-benny/molto-benny-eth.ai`} download className="bg-black rounded-lg p-6 flex items-center justify-between hover:bg-gray-900 transition-colors cursor-pointer">
                 <div>
                   <p className="text-white font-medium">Molto Benny (ETH)</p>
                   <p className="text-gray-400 text-sm">Adobe Illustrator</p>
@@ -232,7 +234,7 @@ export default function BrandKit() {
                 <span className="text-[#FFE135] font-medium text-sm">.ai</span>
               </a>
 
-              <a href="/stickers/molto-benny-pizzadao.ai" download className="bg-black rounded-lg p-6 flex items-center justify-between hover:bg-gray-900 transition-colors cursor-pointer">
+              <a href={`${BASE_PATH}/stickers/molto-benny-pizzadao.ai`} download className="bg-black rounded-lg p-6 flex items-center justify-between hover:bg-gray-900 transition-colors cursor-pointer">
                 <div>
                   <p className="text-white font-medium">Molto Benny Sticker</p>
                   <p className="text-gray-400 text-sm">Adobe Illustrator</p>
@@ -251,9 +253,9 @@ export default function BrandKit() {
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-start">
               {[1, 2, 3, 4, 5].map((num) => (
-                <a key={num} href={`/gifs/gif${num}.gif`} download className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                <a key={num} href={`${BASE_PATH}/gifs/gif${num}.gif`} download className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                   <Image
-                    src={`/gifs/gif${num}.gif`}
+                    src={`${BASE_PATH}/gifs/gif${num}.gif`}
                     alt={`PizzaDAO GIF ${num}`}
                     width={200}
                     height={300}

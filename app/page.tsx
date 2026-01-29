@@ -442,6 +442,47 @@ export default function BrandKit() {
                 </div>
               </div>
             </div>
+
+            {/* Examples */}
+            <h3 className="text-xl font-bold mt-12 mb-6">Examples</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="rounded-lg overflow-hidden">
+                <Image
+                  src={`${BASE_PATH}/party-flyers/pizza-future.jpg`}
+                  alt="Pizza Future - Toronto"
+                  width={400}
+                  height={400}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <Image
+                  src={`${BASE_PATH}/party-flyers/dao-tokyo.jpg`}
+                  alt="DAO Tokyo"
+                  width={400}
+                  height={400}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <Image
+                  src={`${BASE_PATH}/party-flyers/pizzafesta.jpg`}
+                  alt="Pizza Festa - Lisboa"
+                  width={400}
+                  height={400}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <Image
+                  src={`${BASE_PATH}/party-flyers/pizzacircus.jpg`}
+                  alt="Pizza Circus"
+                  width={400}
+                  height={400}
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </main>

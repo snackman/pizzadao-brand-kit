@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   { id: "typography", label: "Typography" },
   { id: "molto-benny", label: "Molto Benny" },
   { id: "gifs", label: "GIFs" },
-  { id: "influences", label: "Influences" },
+  { id: "influences", label: "Lore" },
   { id: "partnership", label: "Partnership" },
   { id: "party-flyers", label: "Party Flyers" },
 ];
@@ -321,26 +321,26 @@ export default function BrandKit() {
           </div>
         </section>
 
-        {/* Influences */}
-        <section id="influences" className="py-12 lg:py-20 bg-black text-white">
+        {/* Lore */}
+        <section id="influences" className="py-12 lg:py-20 bg-[#FFE135]">
           <div className="max-w-5xl mx-auto px-6 lg:px-12">
-            <h2 className="text-3xl font-black mb-4">Influences</h2>
-            <p className="text-gray-400 mb-8 lg:mb-12">Our personality is inspired by three key influences:</p>
+            <h2 className="text-3xl font-black mb-4">Lore</h2>
+            <p className="text-gray-700 mb-8 lg:mb-12">We channel these influences to shape how we build together</p>
 
             <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
-              <div className="border border-gray-700 rounded-lg p-6 lg:p-8">
+              <div className="bg-black rounded-lg p-6 lg:p-8">
                 <p className="text-4xl lg:text-5xl mb-4">🐢</p>
                 <h3 className="text-xl font-bold text-[#FFE135] mb-2">Ninja Turtles</h3>
                 <p className="text-gray-400">Fun, youthful, pizza-obsessed. We don&apos;t take ourselves too seriously.</p>
               </div>
 
-              <div className="border border-gray-700 rounded-lg p-6 lg:p-8">
+              <div className="bg-black rounded-lg p-6 lg:p-8">
                 <p className="text-4xl lg:text-5xl mb-4">🏴‍☠️</p>
                 <h3 className="text-xl font-bold text-[#FFE135] mb-2">Pirates</h3>
                 <p className="text-gray-400">Adventurous, independent, community-driven. We sail together.</p>
               </div>
 
-              <div className="border border-gray-700 rounded-lg p-6 lg:p-8">
+              <div className="bg-black rounded-lg p-6 lg:p-8">
                 <p className="text-4xl lg:text-5xl mb-4">🎬</p>
                 <h3 className="text-xl font-bold text-[#FFE135] mb-2">Mafia Movies</h3>
                 <p className="text-gray-400">Family, loyalty, respect. An offer you can&apos;t refuse.</p>
@@ -411,7 +411,7 @@ export default function BrandKit() {
                   </li>
                   <li className="flex gap-4">
                     <span className="flex-shrink-0 w-8 h-8 bg-white text-[#E85D5D] rounded-full flex items-center justify-center font-bold text-sm">2</span>
-                    <span>Request an interpretation of Molto Benny in a party-appropriate setting</span>
+                    <span>Request an interpretation of Molto Benny in a setting appropriate to the party&apos;s themes or the city it&apos;s in</span>
                   </li>
                   <li className="flex gap-4">
                     <span className="flex-shrink-0 w-8 h-8 bg-white text-[#E85D5D] rounded-full flex items-center justify-center font-bold text-sm">3</span>

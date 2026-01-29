@@ -429,7 +429,7 @@ export default function BrandKit() {
                 <div className="space-y-4">
                   <div className="bg-white/10 rounded-lg p-4">
                     <p className="font-bold">Format</p>
-                    <p className="text-white/80">Square primary image + poster and banner versions</p>
+                    <p className="text-white/80">Square primary image + poster and banner versions if needed</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <p className="font-bold">Budget</p>
